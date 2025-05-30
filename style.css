@@ -12,7 +12,7 @@ background:  #262626;
 padding: 25px;
 border-radius: 10px;
 box-shadow: 0 0 8px#595859;
-width: 300px;
+width: 500px;
 max-width: 90%;
 min-width: 300px;
 
@@ -122,6 +122,7 @@ gap: 5px;
   .campo{
     min-width: 290px;
     width: auto;
+    width: 300px;
     max-width: 310px;
     margin: 80px auto;
   }
