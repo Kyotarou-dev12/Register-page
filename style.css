@@ -1,0 +1,145 @@
+body{
+    background-color: #1E1E1E;
+
+  color: rgb(255, 255, 255);
+  font-family:Arial, sans-serif;
+ 
+  
+}
+.campo{
+
+background:  #262626;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 0 8px#595859;
+width: 300px;
+max-width: 90%;
+min-width: 300px;
+
+margin: 150px  auto;
+}
+h2{
+font-size: 18px;
+padding-bottom: 10px;
+margin-left: 10%;
+display: block;
+
+text-align: left;
+}
+
+h1 {
+border-bottom: 3px solid rgb(255, 255, 255);
+
+padding-bottom: 15px;
+font-size: 26px;
+margin-bottom: 10px; 
+
+
+}
+
+input{
+
+background:  #1f1f1f;
+border-radius: 30px;
+margin: 10px auto;
+height: 30px;
+width:80%;
+display: block;
+max-width: none;
+border: 2px solid white;
+transition: all 0.3s ease-in-out;
+padding: 10px;
+color: rgb(255, 255, 255);
+cursor: pointer;
+
+
+}
+input:focus {
+border: 2px solid #3498db;
+box-shadow: 0px 0px 8px rgba(52, 152, 219, 0.5); 
+}
+
+#registrar{
+
+
+color: rgb(255, 255, 255);
+
+height: 40px;
+display: block;
+margin: 10px auto;
+max-width: 200px;
+border-radius: 30px; 
+font-size: 15px;
+font-weight: 700;
+background-color: #2ecc71;
+border: none;
+transition: all 0.3s ease-in-out;
+
+cursor: pointer;
+
+}
+#registrar:hover{
+
+background-color: #27ae60;
+box-shadow: 0px 0px 10px rgba(46, 204, 113, 0.7);
+}
+.social{
+
+background: white;
+color: black;
+border-radius: 10px;
+margin: 20px;
+padding: 5px;
+width: 50px;
+height: 50px;
+max-width: 200px;
+font-size: 15px;
+text-decoration: none;
+display: flex;
+
+
+
+overflow: hidden;
+
+}
+
+
+.social:hover{
+
+background-color: #808080;
+box-shadow: 0px 0px 10px lightgray;
+
+}
+#social-container{
+
+display: flex;
+justify-content: center;
+
+gap: 5px;
+}
+
+@media(max-width: 400px) {
+  .campo{
+    min-width: 290px;
+    width: auto;
+    max-width: 310px;
+    margin: 80px auto;
+  }
+  h1{
+    font-size: 22px;
+  }
+
+  h2{
+    font-size: 15px;
+  }
+
+.social{
+  padding: 4px;
+  height: 40px;
+  width: 40px;
+}
+
+#registrar{
+  max-width: 150px;
+}
+}
