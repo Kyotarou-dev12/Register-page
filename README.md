@@ -8,6 +8,16 @@ Uma pagina de registro feita em html e css(apenas front end)
 
 # descrição
 
-Projeto de página de registro de usuário desenvolvida com HTML e CSS, com foco em design limpo, responsivo e estrutura clara de formulário. Ideal para fluxos de cadastro em aplicações web modernas.
-Tecnologias: HTML5, CSS3
-Responsivo: Sim
+Página de registro desenvolvida com HTML e CSS, simulando cadastro de usuário em aplicações web. Projeto focado em responsividade e clareza de layout.
+
+Recursos incluídos:
+
+📝 Formulário completo de registro
+
+🎯 Alinhamento central com flexbox
+
+📱 Layout responsivo com media queries
+
+💡 Visual limpo e claro
+
+🧼 Código bem estruturado e comentado
